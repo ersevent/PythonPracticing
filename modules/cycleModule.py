@@ -33,3 +33,8 @@ def cycleModule(lista):
             break
         else:
             print(i, end=" ")
+
+    print("cycle with range: ", end=" ")
+    num=12
+    for i in range(num):
+        print(i, end=" ")
