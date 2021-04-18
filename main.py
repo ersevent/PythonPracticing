@@ -1,6 +1,6 @@
-from cycleModule import cycleModule
-from listModule import listModule
-from basicModule import basicModule
+from modules.cycleModule import cycleModule
+from modules.listModule import listModule
+from modules.basicModule import basicModule
 
 basicModule()
 
