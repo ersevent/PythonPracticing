@@ -11,6 +11,11 @@ def negativeNumberRaise():
     if num<0:
         raise ValueError("Negative number!")
 
+def assertExample():
+    temp = -10
+    print("\nTemperature: " + str(temp), end=", ")
+    assert (temp >= 0), "colder than absolute zero!"
+
 def main():
     try:
         print(dividedByZero(7))
@@ -27,5 +32,10 @@ def main():
 
     try:
         negativeNumberRaise()
+    except Exception as e:
+        print(e)
+
+    try:
+        assertExample()
     except Exception as e:
         print(e)
