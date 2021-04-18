@@ -13,6 +13,7 @@ def commandHelp():
     print("3: Cycle module")
     print("4: Function module")
     print("5: Exception module")
+    print("6: File module")
     print("0: Exit")
 
 while True:
@@ -35,7 +36,7 @@ while True:
             mainFunctionModule()
         elif(int(module)==5):
             mainExceptionModule()
-        elif(int(module==6)):
+        elif(int(module)==6):
             mainFileModule()
         else: print("\nWrong module number!")
     except ValueError:
