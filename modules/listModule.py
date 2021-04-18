@@ -1,4 +1,6 @@
-def listModule(lista):
+def listModule():
+    lista = [4, 5, 8, 12, 3, 0]
+
     print("\nlista: " + str(lista))
 
     print("\nlista: " + str(lista) + ", 3rd element in lista: " + str(lista[2]))

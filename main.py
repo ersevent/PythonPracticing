@@ -15,14 +15,12 @@ print("\nSelect a module with number: ", end=" ")
 try:
     moduleNum = int(input())
 
-    lista = [4, 5, 8, 12, 3, 0]
-
     if(moduleNum==1):
         basicModule()
     elif(moduleNum==2):
-        listModule(lista)
+        listModule()
     elif(moduleNum==3):
-        cycleModule(lista)
+        cycleModule()
     elif(moduleNum==4):
         mainFunctionModule()
     elif(moduleNum==5):
