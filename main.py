@@ -1,8 +1,10 @@
-from modules.cycleModule import cycleModule
-from modules.listModule import listModule
-from modules.basicModule import basicModule
+from modules.cycleModule import main as mainCycleModule
+from modules.listModule import main as mainListModule
+from modules.basicModule import main as mainBasicModule
 from modules.functionModule import main as mainFunctionModule
 from modules.exceptionModule import main as mainExceptionModule
+from modules.fileModule import main as mainFileModule
+
 import sys
 
 def commandHelp():
@@ -15,7 +17,7 @@ def commandHelp():
 
 while True:
     print("\n--------------------------------------------------------")
-    print("Select a module with number (type help for commands): ", end=" ")
+    print("Select a module with number (type help for module list): ", end=" ")
     
     try:
         module = input()
@@ -24,15 +26,17 @@ while True:
         elif(int(module)==0):
             sys.exit()
         elif(int(module)==1):
-            basicModule()
+            mainBasicModule()
         elif(int(module)==2):
-            listModule()
+            mainListModule()
         elif(int(module)==3):
-            cycleModule()
+            mainCycleModule()
         elif(int(module)==4):
             mainFunctionModule()
         elif(int(module)==5):
             mainExceptionModule()
+        elif(int(module==6)):
+            mainFileModule()
         else: print("\nWrong module number!")
     except ValueError:
         print("Invalid input!")

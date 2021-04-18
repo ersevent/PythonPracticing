@@ -1,4 +1,4 @@
-def listModule():
+def main():
     lista = [4, 5, 8, 12, 3, 0]
 
     print("\nlista: " + str(lista))

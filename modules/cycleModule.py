@@ -1,4 +1,4 @@
-def cycleModule():
+def main():
     lista = [4, 5, 8, 12, 3, 0]
 
     print("\nprint even numbers till 13:", end=" ")

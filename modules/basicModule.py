@@ -1,4 +1,4 @@
-def basicModule():
+def main():
     msg = "hello world"
 
     print("\n" + msg)
