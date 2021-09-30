@@ -17,6 +17,7 @@ def commandHelp():
     print("0: Exit")
 
     print("test")
+    print("test2")
 
 while True:
     print("\n--------------------------------------------------------")
