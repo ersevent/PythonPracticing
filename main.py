@@ -17,6 +17,9 @@ def commandHelp():
     print("0: Exit")
     
 
+    print("test")
+    print("test2")
+
 while True:
     print("\n--------------------------------------------------------")
     print("Select a module with number (type help for module list): ", end=" ")
